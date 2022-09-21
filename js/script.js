@@ -21,8 +21,7 @@ function validateS()
   if(user.value =="")
   {
     document.getElementById("fieldErr").style.backgroundColor = 'red';
-    document.getElementById("fieldErr").textContent="Username cannot be empty"
-
+    document.getElementById("fieldErr").textContent="Username cannot be empty";
     user.style.border="2px solid red";
     user.focus();
     return false;
