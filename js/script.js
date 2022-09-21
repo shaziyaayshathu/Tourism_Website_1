@@ -23,8 +23,8 @@ function validateS()
     document.getElementById("fieldErr").style.backgroundColor = 'red';
     document.getElementById("fieldErr").textContent="Username cannot be empty"
 
-    //document.getElementById("semail").style.border="2px solid red";
-    document.getElementById("semail").focus();
+    document.getElementById("uname").style.border="2px solid red";
+    document.getElementById("uname").focus();
     return false;
   }
  
